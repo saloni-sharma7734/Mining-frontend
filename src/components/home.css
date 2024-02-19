@@ -1,0 +1,36 @@
+@media only screen and (max-width: 1920px) {
+  .container {
+    margin-left: 1rem !important ;
+    max-width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    margin-left: 1rem !important ;
+    max-width: 100%;
+  }
+  img {
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .container {
+    margin-left: 12rem !important ;
+    max-width: 100%;
+  }
+  img {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 576px) {
+  .col-md-6 img {
+    width: 60%;
+    height: 70%;
+    margin-left: 1%;
+    
+  }
+  .col-md-6 h1.display-4 {
+    font-size: 1px;
+  }
+}

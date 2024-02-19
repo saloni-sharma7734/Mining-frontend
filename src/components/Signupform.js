@@ -24,10 +24,10 @@ const SignupForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Perform signup logic here using formData
+    
     console.log('Form submitted:', formData);
 
-    // For demonstration purposes, set isSubmitted to true
+    
     setIsSubmitted(true);
   };
 

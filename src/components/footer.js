@@ -1,19 +1,16 @@
-// Footer.js 
-
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faTwitter, faLinkedin, faWhatsapp,faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faTwitter, faLinkedin, faWhatsapp, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import './footer.css';
 
 const Footer = () => {
   return (
-    <footer className="footer py-3">
+    <footer className="footer">
       <div className="footer-content">
         <div className="footer-section">
           <h4>Contact Us</h4>
           <p>Email: Shrivastavaakki1985@gmail.com</p>
-          <p>Phone: +91 80034-96955,<br></br>+91 84327-02999</p>
-          {/* <p>Phone: </p> */}
+          <p>Phone: +91 80034-96955, +91 84327-02999</p>
         </div>
         <div className="footer-section">
           <h4>Quick Links</h4>
@@ -46,7 +43,7 @@ const Footer = () => {
         </div>
         <div className="footer-section">
           <h4>Address</h4>
-        <p> Behind Of HMB Palace ,Near RPSC,Jaipur Road,Ajmer (Rajasthan)</p>
+          <p>Behind Of HMB Palace, Near RPSC, Jaipur Road, Ajmer (Rajasthan)</p>
         </div>
       </div>
       <div className="footer-bottom">
